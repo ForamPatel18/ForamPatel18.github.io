@@ -137,31 +137,6 @@ console.log("This is working!");
         for (i = 0, len = resp.length; i < len; i++) {
           tableData.push({
                 "externalId": resp[i].externalId,
-                "organisation": resp[i].organisation,
-                "owner": resp[i].owner,
-                "parent": resp[i].parent,
-                "taskName": resp[i].taskName,
-                "status": resp[i].status,
-                "location": resp[i].location,
-                "trade": resp[i].trade,
-                "totalQuantity": resp[i].totalQuantity,
-                "actualQuantity": resp[i].actualQuantity,
-                "quantityUnits": resp[i].quantityUnits,
-                "percentComplete": resp[i].percentComplete,
-                "baselineStartDate": resp[i].baselineStartDate,
-                "baselineEndDate": resp[i].baselineEndDate,
-                "plannedStartDate": resp[i].plannedStartDate,
-                "actualStartDate": resp[i].actualStartDate,
-                "plannedEndDate": resp[i].plannedEndDate,
-                "actualEndDate": resp[i].actualEndDate,
-                "plannedDuration": resp[i].plannedDuration,
-                "actualDuration": resp[i].actualDuration,
-                "baselineDuration": resp[i].baselineDuration,
-                "taskType": resp[i].taskType,
-                "description": resp[i].description,
-                "notes": resp[i].notes,
-                "totalPlannedWorkers": resp[i].totalPlannedWorkers,
-                "totalActualWorkers": resp[i].totalActualWorkers
           });
         }
         table.appendRows(tableData);
